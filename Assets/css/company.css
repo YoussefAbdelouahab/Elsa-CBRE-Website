@@ -1,0 +1,179 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background: white;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0 10px;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.logo img {
+    width: 183px;
+    height: 100px;
+}
+.content-area {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    background: #ebebeb;
+}
+
+.content-area h2 {
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 8%;
+}
+
+.content-area p {
+    margin-top: 4%;
+    padding: 2% 0px;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+}
+.intro {
+    font-family: 'Lato', sans-serif;
+    width: 700px;
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+
+ } 
+.intro span { 
+    font-family: 'Lato', sans-serif;
+    background:#ebebeb; 
+    padding:0 10px; 
+}
+.cbre-chiffre {
+    height: 200px;
+    width: 850px;
+}
+
+.BigBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.container .card {
+    position: relative;
+    width: 231px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    color: black;
+}
+.container .card .content {
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+    color: black;
+}
+
+.container .card .content h2 {
+    position: absolute;
+    top: -15px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(0, 63, 45, 0.2);
+    pointer-events: none;
+}
+
+.container .card .content h3 {
+    font-size: 1.8em;
+    color: black;
+    z-index: 1;
+}
+
+.container .card .content p {
+    font-size: 1em;
+    color: black;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.container .card .content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.SWOT{
+    margin-top: 5%;
+}
+
+.organigramme{
+    margin-top: 1%;
+    width: 1024px;
+    height: 600px;
+}

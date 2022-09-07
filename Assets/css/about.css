@@ -1,0 +1,250 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    width: 70%;
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+ } 
+
+.intro span { 
+    background: #ebebeb; 
+    padding:0 10px; 
+}
+
+
+h2 {
+    font-weight: lighter;
+}
+
+body {
+    text-align: center;
+    background-image: url(image/background-website-01.jpg);
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background: white;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    float:right;
+    line-height: 100px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+.header {
+    float:right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0 10px;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.banner-area {
+    width: 100%;
+    height: 320px;
+    top: 100px;
+    background-image: url(image/background-website-01.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area h2 {
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+.content-area {
+    width: 100%;
+    position: relative;
+    top: 10%;
+    background: #ebebeb;
+}
+
+.content-area h2 {
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content-area p {
+    padding: 2% 0px;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+}
+
+img {
+    width: 702px;
+    height: 500px;
+    float: left;
+    transition: 0.5s ease;
+    margin-right: 2%;
+}
+.logo img {
+    width: 183px;
+    height: 100px;
+}
+
+  
+.cv a {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0 10px;
+    color: black;
+    transition: 0.5s ease;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.cv a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 50px black;
+    transition-delay: 0.3s;
+}
+
+.cv a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    transition: 0.5s;
+}
+
+.cv a:hover:before {
+    width: 100%;
+    height: 100%;
+}
+
+.cv a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    transition: 0.5s;
+}
+
+.cv a:hover:after {
+    width: 100%;
+    height: 100%;
+}
+
+.cv {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.Temoignage{
+    margin-top: 3%;
+    height: 200px;
+    width: 490px;
+    border: solid #003f2d;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: white;
+    display: inline-block;
+}
+.rond {
+    border-radius: 90%;
+    background-color: white;
+    height: 110px;
+    width: 110px;
+    margin-top: 9%;
+    margin-right: 2%;
+    color: black;
+    float: right;
+}
+
+.rondp {
+    color: white;
+    float: left;
+}
+
+.textrond {
+    width: 70%;
+    height: 70%;
+    color: black;
+    display: inline-block;
+    margin-top: 1%;
+}
+
+.italique {
+    font-style: oblique;
+    font-size: 16px;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.rondh1{
+    font-family: 'Lato', sans-serif;
+}
+
+.gauche{
+    width: 525px;
+    height: 300px;
+}
+.droite{
+    width: 525px;
+    height: 300px;
+    float: right;
+}
+
+h3{
+    font-family: 'Lato', sans-serif; 
+}
